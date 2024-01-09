@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image:url(https://e0.pxfuel.com/wallpapers/892/688/desktop-wallpaper-weekends-instagram-gradient-for-mac-orange-gradient-thumbnail.jpg);
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3897f0;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ae8;
+}
+
+.signup-link {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+a {
+  color: #3897f0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
